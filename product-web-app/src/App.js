@@ -41,20 +41,22 @@ function Footer(props) {
 }
 
 function Header() {
-  return (<div className="App">
+  return (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="Hello Product React App" />
     </header>
-  </div>)
+  )
 }
 
 
 function App() {
   return (
     <>
-      <Header />
-      <Main login="hhh7681" />
-      <Footer companyName="K+C"> </Footer>
+      <div className="App">
+        <Header />
+        <Main login="hhh7681" />
+        <Footer companyName="K+C"> </Footer>
+      </div>
     </>
   );
 }

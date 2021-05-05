@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecc71d27-bf6d-42b1-a3fe-36905b35a549" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../naming-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../naming-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-service/src/main/java/com/kinandcarta/training/springcloud/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-service/src/main/java/com/kinandcarta/training/springcloud/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ecc71d27-bf6d-42b1-a3fe-36905b35a549" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620180138247</updated>
       <workItem from="1620180140051" duration="1677000" />
-      <workItem from="1620182544571" duration="871000" />
+      <workItem from="1620182544571" duration="1150000" />
     </task>
     <servers />
   </component>
