@@ -13,7 +13,7 @@ const columns = [
 const ProductGrid = ({products, startLoadingProduct}) => {
   useEffect(() => {   
     startLoadingProduct();
-  },[]);
+  });
 
   
   if (products != null) {

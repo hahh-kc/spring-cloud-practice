@@ -5,40 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecc71d27-bf6d-42b1-a3fe-36905b35a549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/spring-cloud-practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../naming-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../naming-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../naming-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../naming-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../naming-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../naming-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../naming-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../naming-service/src/main/java/com/kinandcarta/springcloud/namingservice/NamingServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../naming-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../naming-service/src/test/java/com/kinandcarta/springcloud/namingservice/NamingServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kinandcarta/springcloud/springcloudconfig/SpringcloudConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kinandcarta/springcloud/springcloudconfig/SpringcloudConfigApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../naming-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../naming-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../order-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-service/src/main/java/com/kinandcarta/training/springcloud/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-service/src/main/java/com/kinandcarta/training/springcloud/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +24,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springcloud-config" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -76,23 +49,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringcloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-config.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kinandcarta.springcloud.springcloudconfig.SpringcloudConfigApplication" />
@@ -109,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620180138247</updated>
-      <workItem from="1620180140051" duration="1018000" />
+      <workItem from="1620180140051" duration="1677000" />
+      <workItem from="1620182544571" duration="871000" />
     </task>
     <servers />
   </component>
@@ -126,6 +93,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
