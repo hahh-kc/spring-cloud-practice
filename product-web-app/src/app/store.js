@@ -5,8 +5,6 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import {rowReducer} from './reducers';
-const reducers =  {rowReducer};
-
  
 
 // const persistConfig = {
@@ -15,7 +13,9 @@ const reducers =  {rowReducer};
 //     stateReconciler: autoMergeLevel2,
 // }
 
-const rootReducer = combineReducers(reducers);
+const rootReducer = combineReducers( {
+    "products": rowReducer
+});
 // const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 export const configureStore = () =>createStore(rootReducer,composeWithDevTools(applyMiddleware(thunk)));

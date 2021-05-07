@@ -29,7 +29,7 @@ const ProductGrid = ({products, startLoadingProduct}) => {
 
 
 const mapStateToProps = state => ({
-  products: state.rowReducer.data,
+  products: state.products.data,
 });
 
 const mapDispatchToProps = dispatch => ({
